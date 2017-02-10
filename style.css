@@ -1,0 +1,58 @@
+/*ACESSIBILIDADE*/
+
+.pagina-acessivel{
+	background-color: #000!important;
+	color: #FFF;
+}
+
+.pagina-acessivel h1, .pagina-acessivel h2, .pagina-acessivel h3, .pagina-acessivel h4{
+	color: #FFF!important;
+} 
+
+.pagina-acessivel a, .pagina-acessivel a h1, .pagina-acessivel a h2, .pagina-acessivel a h3, .pagina-acessivel a h4, .pagina-acessivel i{
+	text-decoration: none; 
+	color: #FFFF00!important;
+}
+
+.pagina-acessivel a:hover{
+	text-decoration: underline; 
+}
+
+.pagina-acessivel .dropdown-menu{
+	border-color: #FFF!important;
+}
+
+.pagina-acessivel li.active > a{
+	color: 	#FF0000!important;
+}
+
+.acess-container{
+	cursor: pointer;
+    display: block;
+    position: fixed;
+    left: 20px;
+    bottom: 80px;
+    z-index: 0;
+}
+
+#jbbutton{
+	margin-left: 0px;
+	width: 54px;
+	height: 54px;
+	float: left;
+}
+
+.acess-icon{
+	margin-top: 7px;
+	margin-left: 2px;
+	float: left;
+}
+
+#acess-icons{
+	display: none;
+	float: left;
+}
+
+.f-transparent{
+	background-color: transparent!important;
+}
