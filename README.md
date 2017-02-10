@@ -20,8 +20,11 @@ To see a simple page with jBility working, dowload or clone jBility project and 
 
 #Installation
 1 Download or clone jBility project and copy the **jbility.js** file to YOUR project folder. Reference it in your HTML.
+
 2 Download the [latest JQuery] version to your project and reference it in your html.
+
 3 Copy/move **img** folder to your project's root.
+
 4 Insert the code below on your footer or before close body:
 ``` html
 	<div class="acess-container">
