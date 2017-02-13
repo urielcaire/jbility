@@ -51,6 +51,7 @@ jQuery(document).ready(function( $ ){
         $('#acess-icons').addClass('f-transparent');
         $('.acess-icon').addClass('f-transparent');
         $('img').addClass('f-transparent');
+        $('#jbbutton').addClass('f-transparent');
     }
 
     function removeConstrast(){
@@ -61,6 +62,7 @@ jQuery(document).ready(function( $ ){
         $('#acess-icons').removeClass('f-transparent');
         $('.acess-icon').removeClass('f-transparent');
         $('img').removeClass('f-transparent');
+        $('#jbbutton').removeClass('f-transparent');
     }
 
    	if(checkCookie('ccontrast')){
