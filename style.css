@@ -1,4 +1,6 @@
-/*ACESSIBILIDADE*/
+/*	ACESSIBILIDADE
+*	jBility v1.0.1.2
+*/
 
 .pagina-acessivel{
 	background-color: #000!important;
@@ -9,7 +11,7 @@
 	color: #FFF!important;
 } 
 
-.pagina-acessivel a, .pagina-acessivel a h1, .pagina-acessivel a h2, .pagina-acessivel a h3, .pagina-acessivel a h4, .pagina-acessivel i{
+.pagina-acessivel a, .pagina-acessivel h1 a, .pagina-acessivel h2 a, .pagina-acessivel h3 a, .pagina-acessivel h4 a, .pagina-acessivel i{
 	text-decoration: none; 
 	color: #FFFF00!important;
 }
