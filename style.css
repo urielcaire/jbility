@@ -34,7 +34,7 @@
     position: fixed;
     left: 20px;
     bottom: 80px;
-    z-index: 0;
+    z-index: 9999;
 }
 
 #jbbutton{
