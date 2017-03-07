@@ -1,5 +1,5 @@
 # jBility v1.0.1.3
-![jBility logo](https://github.com/urielcaire/jbility/img/jb.png "jBility")
+![jBility logo](https://github.com/urielcaire/jbility/blob/master/img/jb.png "jBility")
 ### Author: Uriel Cairê Balan Calvi
 jBility is a free set of accessibility functions that uses JQuery.  
 The goal is to allow people with low vision to see your website's content.
