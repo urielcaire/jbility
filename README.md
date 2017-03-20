@@ -15,11 +15,11 @@ Currently jBility has three functions:
 
 These functions make it easier to view a page's content.
 
-#Example
+# Example
 To see a simple page with jBility working, download or clone jBility project and move it to your localhost and then just access it. 
 Or see now in [JQueryScript](http://www.jqueryscript.net/demo/jQuery-Plugin-For-Better-Page-Accessibility-Readability-jbility/ "jBility demo").
 
-#Installation
+# Installation
 1 Download or clone jBility project and copy the **jbility.js** file to YOUR project folder. Reference it in your HTML.
 
 2 Download the [latest JQuery] version to your project and reference it in your html.
