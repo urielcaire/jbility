@@ -37,7 +37,7 @@ Or see now in [JQueryScript](http://www.jqueryscript.net/demo/jQuery-Plugin-For-
         </div>
     </div>
 ```
-5 Copy all the content of **style.css** to the final of your project's stylesheet.
+5 Copy and reference the **jbility.css** in your project - make sure it will be the last referenced stylesheet.
 
 ## Enjoy it!
 ---
