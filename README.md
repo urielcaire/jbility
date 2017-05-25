@@ -1,4 +1,4 @@
-# jBility v1.0.1.3
+# jBility v1.1.4
 ![jBility logo](https://github.com/urielcaire/jbility/blob/master/img/jb.png "jBility")
 ### Author: Uriel Cairê Balan Calvi
 jBility is a free set of accessibility functions that uses JQuery.  
@@ -16,7 +16,7 @@ Currently jBility has three functions:
 These functions make it easier to view a page's content.
 
 # Example
-To see a simple page with jBility working, download or clone jBility project and move it to your localhost and then just access it. 
+To see a simple page with jBility working, download or clone jBility project and move it to your localhost and then just access it.
 Or see now in [JQueryScript](http://www.jqueryscript.net/demo/jQuery-Plugin-For-Better-Page-Accessibility-Readability-jbility/ "jBility demo").
 
 # Installation

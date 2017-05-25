@@ -1,5 +1,6 @@
 /*	ACESSIBILIDADE
-*	jBility v1.0.1.3
+*	jBility
+* https://github.com/urielcaire/jbility
 */
 
 .pagina-acessivel{
@@ -9,15 +10,15 @@
 
 .pagina-acessivel h1, .pagina-acessivel h2, .pagina-acessivel h3, .pagina-acessivel h4{
 	color: #FFF!important;
-} 
+}
 
 .pagina-acessivel a, .pagina-acessivel h1 a, .pagina-acessivel h2 a, .pagina-acessivel h3 a, .pagina-acessivel h4 a, .pagina-acessivel i{
-	text-decoration: none; 
+	text-decoration: none;
 	color: #FFFF00!important;
 }
 
 .pagina-acessivel a:hover{
-	text-decoration: underline; 
+	text-decoration: underline;
 }
 
 .pagina-acessivel .dropdown-menu{
@@ -57,4 +58,39 @@
 
 .f-transparent{
 	background-color: transparent!important;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #1e88e5;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1e88e5 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }

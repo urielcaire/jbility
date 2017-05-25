@@ -1,7 +1,7 @@
 /**
-*			jBility v1.0.1.3
+*			jBility 
 *	jBility is a free set of accessibility functions that uses JQuery.
-*	By: Uriel Cairê Balan Calvi 
+*	By: Uriel Cairê Balan Calvi
 *	Available on: https://github.com/urielcaire/jBility
 */
 jQuery(document).ready(function( $ ){

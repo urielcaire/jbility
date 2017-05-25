@@ -3,7 +3,7 @@
 <head>
 	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
 	<link rel="stylesheet" type="text/css" href="jbility.css">
-	<title>jBility v1.0.1.3</title>
+	<title>jBility</title>
 </head>
 <body style="width:480px;">
 	<div style="float:left; margin-right:5px;"><img src="img/jb.png"></div>
@@ -27,15 +27,15 @@
 	</div>
 	<!-- Include the code below in your site -->
 	<div class="acess-container">
-        <div id="jbbutton" title="Accessibility"><img src="img/acessc50.png"></div>
-        <div id="acess-icons">
-            <div class="acess-icon"><img id="contrast" title="Contrast" src="img/contraste40.png"/></div>
-            <div class="acess-icon"><img id="increaseFont" title="Increase Font" src="img/fontsma40.png"/></div>
-            <div class="acess-icon"><img id="decreaseFont" title="Decrease Font" src="img/fontsme40.png"/></div>
-        </div>
+    <div id="jbbutton" class="tooltip" title="Accessibility"><span class="tooltiptext">Accessibility</span><img src="img/acessc50.png"></div>
+    <div id="acess-icons">
+      <div class="acess-icon tooltip"><span class="tooltiptext">Contrast</span><img id="contrast" src="img/contraste40.png"/></div>
+      <div class="acess-icon tooltip"><span class="tooltiptext">Increase Font</span><img id="increaseFont" src="img/fontsma40.png"/></div>
+    	<div class="acess-icon tooltip"><span class="tooltiptext">Decrease Font</span><img id="decreaseFont" src="img/fontsme40.png"/></div>
     </div>
+  </div>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="jbility.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="jbility.js"></script>
 </body>
 </html>
