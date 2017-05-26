@@ -20,22 +20,22 @@ To see a simple page with jBility working, download or clone jBility project and
 Or see now in [JQueryScript](http://www.jqueryscript.net/demo/jQuery-Plugin-For-Better-Page-Accessibility-Readability-jbility/ "jBility demo").
 
 # Installation
-1 Download or clone jBility project and copy the **jbility.js** file to YOUR project folder. Reference it in your HTML.
+1 Download the [latest JQuery] version to your project and reference it in your html.
 
-2 Download the [latest JQuery] version to your project and reference it in your html.
+2 Download or clone jBility project and copy the **jbility.js** file to YOUR project folder. Reference it in your HTML.
 
 3 Copy/move **img** folder to your project's root.
 
 4 Insert the code below on your footer or before close body:
 ``` html
-	<div class="acess-container">
-        <div id="jbbutton" title="Accessibility"><img src="img/acessc50.png"></div>
-        <div id="acess-icons">
-            <div class="acess-icon"><img id="contrast" title="Contrast" src="img/contraste40.png"/></div>
-            <div class="acess-icon"><img id="increaseFont" title="Increase Font" src="img/fontsma40.png"/></div>
-            <div class="acess-icon"><img id="decreaseFont" title="Decrease Font" src="img/fontsme40.png"/></div>
-        </div>
-    </div>
+<div class="acess-container">
+	<div id="jbbutton" class="balloon" title="Accessibility"><span class="balloontext">Accessibility</span><img src="img/acessc50.png"></div>
+	<div id="acess-icons">
+		<div class="acess-icon balloon"><span class="balloontext">Contrast</span><img id="contrast" src="img/contraste40.png"/></div>
+		<div class="acess-icon balloon"><span class="balloontext">Increase Font</span><img id="increaseFont" src="img/fontsma40.png"/></div>
+		<div class="acess-icon balloon"><span class="balloontext">Decrease Font</span><img id="decreaseFont" src="img/fontsme40.png"/></div>
+	</div>
+</div>
 ```
 5 Copy and reference the **jbility.css** in your project - make sure it will be the last referenced stylesheet.
 

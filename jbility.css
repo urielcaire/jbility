@@ -60,12 +60,12 @@
 	background-color: transparent!important;
 }
 
-.tooltip {
+.balloon {
     position: relative;
     display: inline-block;
 }
 
-.tooltip .tooltiptext {
+.balloon .balloontext {
     visibility: hidden;
     width: 120px;
     background-color: #1e88e5;
@@ -81,7 +81,7 @@
     margin-left: -60px;
 }
 
-.tooltip .tooltiptext::after {
+.balloon .balloontext::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -92,6 +92,6 @@
     border-color: #1e88e5 transparent transparent transparent;
 }
 
-.tooltip:hover .tooltiptext {
+.balloon:hover .balloontext {
     visibility: visible;
 }

@@ -1,5 +1,5 @@
 /**
-*			jBility 
+*	jBility
 *	jBility is a free set of accessibility functions that uses JQuery.
 *	By: Uriel Cairê Balan Calvi
 *	Available on: https://github.com/urielcaire/jBility
@@ -44,56 +44,57 @@ jQuery(document).ready(function( $ ){
 	*		jBility functions
 	*======================================*/
 	function addConstrast(){
-        console.log('addConstrast');
-        $('*').addClass('pagina-acessivel');
-        $('.acess-container').addClass('f-transparent');
-        $('#botao').addClass('f-transparent');
-        $('#acess-icons').addClass('f-transparent');
-        $('.acess-icon').addClass('f-transparent');
-        $('img').addClass('f-transparent');
-        $('#jbbutton').addClass('f-transparent');
-    }
+  	console.log('addConstrast');
+    $('*').addClass('pagina-acessivel');
+    $('.acess-container').addClass('f-transparent');
+    $('#botao').addClass('f-transparent');
+    $('#acess-icons').addClass('f-transparent');
+    $('.acess-icon').addClass('f-transparent');
+    $('img').addClass('f-transparent');
+    $('#jbbutton').addClass('f-transparent');
+  }
 
-    function removeConstrast(){
-        console.log('removeConstrast');
-        $('*').removeClass('pagina-acessivel');
-        $('.acess-container').removeClass('f-transparent');
-        $('#botao').removeClass('f-transparent');
-        $('#acess-icons').removeClass('f-transparent');
-        $('.acess-icon').removeClass('f-transparent');
-        $('img').removeClass('f-transparent');
-        $('#jbbutton').removeClass('f-transparent');
-    }
+  function removeConstrast(){
+    console.log('removeConstrast');
+    $('*').removeClass('pagina-acessivel');
+    $('.acess-container').removeClass('f-transparent');
+    $('#botao').removeClass('f-transparent');
+    $('#acess-icons').removeClass('f-transparent');
+    $('.acess-icon').removeClass('f-transparent');
+    $('img').removeClass('f-transparent');
+    $('#jbbutton').removeClass('f-transparent');
+  }
 
-   	if(checkCookie('ccontrast')){
-    	addConstrast();
-   	}
+  if(checkCookie('ccontrast')){
+  	addConstrast();
+  }
 
-   	$('#contrast').click(function(){
-    	var ck = checkCookie('ccontrast');
-        if(ck){
-        	deleteCookie('ccontrast');
-            removeConstrast();
-        }else{
-            createCookie('ccontrast', 'cookieContrast');
-            addConstrast();
-        }
-   	});
+  $('#contrast').click(function(){
+  	var ck = checkCookie('ccontrast');
+	  if(ck){
+	  	deleteCookie('ccontrast');
+	    removeConstrast();
+	  }else{
+	    createCookie('ccontrast', 'cookieContrast');
+	    addConstrast();
+	  }
+  });
 
 	var $cElements = $("body").find("*");
 	var fonts = [];
 
 	function getFontSize() {
 		for (var i = 0; i < $cElements.length; i++) {
-	    	fonts.push(parseFloat($cElements.eq(i).css('font-size')));
-	  	}
+	 		fonts.push(parseFloat($cElements.eq(i).css('font-size')));
+	  }
 	}
+
 	getFontSize();
 	$("#increaseFont").on('click', function() {
 		for (var i = 0; i < $cElements.length; i++) {
-	    	++fonts[i];
-	    	$cElements.eq(i).css('font-size', fonts[i]);
-	  	}
+	   	++fonts[i];
+	   	$cElements.eq(i).css('font-size', fonts[i]);
+	  }
 	});
 
 	$("#decreaseFont").on('click', function() {
@@ -104,7 +105,7 @@ jQuery(document).ready(function( $ ){
 	});
 
 	$('#jbbutton').click(function(){
-        $('#acess-icons').toggle(150);
-    });
+    $('#acess-icons').toggle(150);
+  });
 
 });
