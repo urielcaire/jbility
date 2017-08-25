@@ -4,12 +4,12 @@
 */
 
 .pagina-acessivel{
-	background-color: #000!important;
-	color: #FFF;
+	background-color: #111111!important;
+	color: #FFFFFF;
 }
 
 .pagina-acessivel h1, .pagina-acessivel h2, .pagina-acessivel h3, .pagina-acessivel h4{
-	color: #FFF!important;
+	color: #FFFFFF!important;
 }
 
 .pagina-acessivel a, .pagina-acessivel h1 a, .pagina-acessivel h2 a, .pagina-acessivel h3 a, .pagina-acessivel h4 a, .pagina-acessivel i{
@@ -22,11 +22,11 @@
 }
 
 .pagina-acessivel .dropdown-menu{
-	border-color: #FFF!important;
+	border-color: #FFFFFF!important;
 }
 
 .pagina-acessivel li.active > a{
-	color: 	#FF0000!important;
+	color: 	#E53935!important;
 }
 
 .acess-container{
@@ -68,10 +68,10 @@
 .balloon .balloontext {
     visibility: hidden;
     width: 120px;
-    background-color: #1e88e5;
-    color: #fff;
+    background-color: #1E88E5;
+    color: #FFFFFF;
     text-align: center;
-    border: 1px solid #FFF;
+    border: 1px solid #FFFFFF;
     border-radius: 6px;
     padding: 5px 0;
     position: absolute;
@@ -89,7 +89,7 @@
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #1e88e5 transparent transparent transparent;
+    border-color: #1E88E5 transparent transparent transparent;
 }
 
 .balloon:hover .balloontext {
