@@ -6,7 +6,8 @@
     "example": "example"
   },
   "scripts": {
-    "build": "echo \"Error: no build specified\" && exit 1"
+    "build": "gulp clean & gulp build",
+    "watch": "gulp default"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.10.0",
+    "gulp-rename": "^1.4.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.1",
     "pump": "^3.0.0"
