@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/urielcaire/jbility#readme",
   "devDependencies": {
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.10.0",
     "gulp-sourcemaps": "^2.6.4",
