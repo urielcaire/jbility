@@ -1,7 +1,7 @@
 var gulp = require('gulp');
-var sourcemaps = require('gulp-sourcemaps');
 var cleanCSS = require('gulp-clean-css');
 var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
 var pump = require('pump');
 var del = require('del');
 
@@ -13,9 +13,9 @@ var paths = {
         example: 'src/example/**/*'
     },
     out: {
-        js: 'dist/js',
-        css: 'dist/css',
-        img: 'dist/img',
+        js: 'dist/jbility/js',
+        css: 'dist/jbility/css',
+        img: 'dist/jbility/img',
         example: 'dist/example'
     }
 };
@@ -27,9 +27,9 @@ gulp.task('clean', () => {
 gulp.task('minify-js', cb => {
     pump([
         gulp.src(paths.in.js),
-        sourcemaps.init(),
+        gulp.dest(paths.out.js),
         uglify(),
-        sourcemaps.write(),
+        rename({suffix: '.min'}),
         gulp.dest(paths.out.js)
     ], cb);
 });
@@ -37,7 +37,9 @@ gulp.task('minify-js', cb => {
 gulp.task('minify-css', cb => {
     pump([
         gulp.src(paths.in.css),
+        gulp.dest(paths.out.css),
         cleanCSS({compatibility: 'ie8'}),
+        rename({suffix: '.min'}),
         gulp.dest(paths.out.css)
     ], cb);
 });
@@ -64,5 +66,5 @@ gulp.task('watch', () => {
 })
 
 gulp.task('all', ['minify-js', 'minify-css', 'copy-images', 'copy-example']);
-gulp.task('build', ['clean', 'all']);
+gulp.task('build', ['all']);
 gulp.task('default', ['watch', 'all']);
