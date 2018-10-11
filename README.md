@@ -26,7 +26,7 @@ Decreases all fonts of your page.
 These functions make it easier to view a page's content.
 
 ## Example
-A simple example can be found in `dist/example` folder, or online [here](github.io/Pliavi/jbility/dist/example/index.html)
+A simple example can be found in `dist/example` folder, or online [here](http://github.io/Pliavi/jbility/dist/example/index.html)
 
 ## Installation
 Download the [latest JQuery] version to your project.
