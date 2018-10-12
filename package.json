@@ -1,0 +1,36 @@
+{
+  "name": "jbility",
+  "version": "1.0.0",
+  "description": "jBility is a free set of accessibility functions that uses JQuery.",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "build": "gulp clean & gulp build",
+    "watch": "gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urielcaire/jbility.git"
+  },
+  "keywords": [
+    "accessibility",
+    "vision",
+    "jquery"
+  ],
+  "author": "Uriel Cairê Balan Calvi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/urielcaire/jbility/issues"
+  },
+  "homepage": "https://github.com/urielcaire/jbility#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "pump": "^3.0.0"
+  }
+}

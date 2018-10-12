@@ -1,0 +1,97 @@
+/*	ACESSIBILIDADE
+*	jBility
+* https://github.com/urielcaire/jbility
+*/
+
+.pagina-acessivel{
+	background-color: #111111!important;
+	color: #FFFFFF;
+}
+
+.pagina-acessivel h1, .pagina-acessivel h2, .pagina-acessivel h3, .pagina-acessivel h4{
+	color: #FFFFFF!important;
+}
+
+.pagina-acessivel a, .pagina-acessivel h1 a, .pagina-acessivel h2 a, .pagina-acessivel h3 a, .pagina-acessivel h4 a, .pagina-acessivel i{
+	text-decoration: none;
+	color: #FFFF00!important;
+}
+
+.pagina-acessivel a:hover{
+	text-decoration: underline;
+}
+
+.pagina-acessivel .dropdown-menu{
+	border-color: #FFFFFF!important;
+}
+
+.pagina-acessivel li.active > a{
+	color: 	#E53935!important;
+}
+
+.acess-container{
+	cursor: pointer;
+    display: block;
+    position: fixed;
+    left: 30px;
+    bottom: 80px;
+    z-index: 9999;
+}
+
+#jbbutton{
+	margin-left: 0px;
+	width: 54px;
+	height: 54px;
+	float: left;
+}
+
+.acess-icon{
+	margin-top: 7px;
+	margin-left: 2px;
+	float: left;
+}
+
+#acess-icons{
+	display: none;
+	float: left;
+}
+
+.f-transparent{
+	background-color: transparent!important;
+}
+
+.balloon {
+    position: relative;
+    display: inline-block;
+}
+
+.balloon .balloontext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #1E88E5;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.balloon .balloontext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1E88E5 transparent transparent transparent;
+}
+
+.balloon:hover .balloontext {
+    visibility: visible;
+}
